@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <th:block th:replace="~{component/config :: config}"></th:block>
+</head>
+<body>
+<div th:replace="~{component/header :: header}"></div>
+<div th:replace="~{component/nav :: nav}"></div>
+
+<h2>시작 페이지</h2>
+<a href="/memberPages/memberSave">회원가입</a> <br>
+<a href="/memberPages/memberLogin">로그인</a> <br>
+<a href="/memberPages/memberList">회원목록</a> <br>
+
+<div th:replace="~{component/footer :: footer}"></div>
+</body>
+</html>
